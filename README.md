@@ -10,6 +10,14 @@ This repositories is associated to Bangkit academy group project. The main conce
 3. [HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 
 ## Development and Installation
+### Installation
 - The project runs on Python 3.8 and developed with Jupyter notebook(.ipynb) extension.
+- In order to run this project install this requirements
+```
+pip install -r requirements.txt
+```
+- Most of the scripts is .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension.
+### 
+
 
 [Agile Daily Report](https://github.com/users/SophrosyneEunoia/projects/3)
