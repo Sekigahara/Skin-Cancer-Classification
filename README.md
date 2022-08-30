@@ -10,13 +10,16 @@ This repositories is associated to Bangkit academy group project. The main conce
 3. [HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 
 ## Development and Installation
+### Scenario
+- The scenarios are splitted into two scenario, the first scenario is trained with 7 labels based on HAM10000 classes. The last scenario is utilized all of the classes into 3 classes(benigh, semi and malign)
+- The semi class is a skin cancer that in the verge of either benigh or could turn into malign.
 ### Installation
 - The project runs on Python 3.8 and developed with Jupyter notebook(.ipynb) extension.
 - In order to run this project install this requirements
 ```
 pip install -r requirements.txt
 ```
-- Most of the scripts is .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension.
+- Most of the scripts are .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension.
 ### 
 
 
