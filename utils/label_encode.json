@@ -1,0 +1,7 @@
+{"actinic keratosis": {"label":0, "abbreviation":"akiec"}, 
+"basal cell carcinoma": {"label":1, "abbreviation":"bcc"}, 
+"pigmented benign keratosis": {"label":2, "abbreviation":"bkl"}, 
+"dermatofibroma": {"label":3, "abbreviation":"df"},  
+"melanoma": {"label":4, "abbreviation":"mel"},
+"melanocytic nevus": {"label":5, "abbreviation":"nv"}, 
+"vascular lesions": {"label":6, "abbreviation":"vasc"}}
