@@ -30,5 +30,3 @@ pip install -r requirements.txt
 - Most of the scripts are .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension.
 ### 
 
-
-[Agile Daily Report](https://github.com/users/SophrosyneEunoia/projects/3)
