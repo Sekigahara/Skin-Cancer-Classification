@@ -27,6 +27,10 @@ This repositories is associated to Bangkit academy group project. The main conce
 ```
 pip install -r requirements.txt
 ```
-- Most of the scripts are .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension.
-### 
+- Most of the scripts are .ipynb, make sure to install jupyter notebook or using visual studio code notebook extension to edit and read the scripts.
+- The requirements that has been installed include the Flask for API.
+### Endpoint
+- The endpoint can be accessed with http://ip:port/api/v1/classify
+- The request can be done by sending the image file directly
+- The response is tested with Postman and can be seen below <br> ![image](https://user-images.githubusercontent.com/54882818/187690697-b9c695dc-7767-4944-9ced-45006467e432.png)
 
