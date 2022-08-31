@@ -18,9 +18,9 @@ This repositories is associated to Bangkit academy group project. The main conce
 - Based on HAM10000, we merge these classes ```actinic keratosis(akiec), basal cell carcinoma(bcc), Pigmented benign keratosis(bkl), dermatofibroma(df), melanoma(mel), melanocytic nevus(nv)m vascular lesion(vasc)```
 #### 3 Classes scenario
 - In this cases we merge this manually with details below.
-- The malign class utilizing basal cell carcinomas, squamous cell carcinomas and melanoma
-- The semi class utilizing actinic keratosis, basal cell carcinoma, vascular lesion
-- The benign class utilizing melanoma, squamous cell carcinoma
+- The malign class utilizing ```basal cell carcinomas, squamous cell carcinomas and melanoma```
+- The semi class utilizing ```actinic keratosis, basal cell carcinoma, vascular lesion```
+- The benign class utilizing ```melanoma, squamous cell carcinoma```
 ### Installation
 - The project runs on Python 3.8 and developed with Jupyter notebook(.ipynb) extension.
 - In order to run this project install this requirements
