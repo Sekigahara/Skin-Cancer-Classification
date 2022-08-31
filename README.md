@@ -12,7 +12,15 @@ This repositories is associated to Bangkit academy group project. The main conce
 ## Development and Installation
 ### Scenario
 - The scenarios are splitted into two scenario, the first scenario is trained with 7 labels based on HAM10000 classes. The last scenario is utilized all of the classes into 3 classes(benigh, semi and malign)
-- The semi class is a skin cancer that in the verge of either benigh or could turn into malign.
+- The semi class is a skin cancer in the verge of either benigh or could turn into malign(potentially malign).
+#### 7 Classes scenario
+- With merge script, we could merge HAM10000 and utilize a few classes from ISIC into one dataset.
+- Based on HAM10000, we merge these classes ```actinic keratosis(akiec), basal cell carcinoma(bcc), Pigmented benign keratosis(bkl), dermatofibroma(df), melanoma(mel), melanocytic nevus(nv)m vascular lesion(vasc)```
+#### 3 Classes scenario
+- In this cases we merge this manually with details below.
+- The malign class utilizing basal cell carcinomas, squamous cell carcinomas and melanoma
+- The semi class utilizing actinic keratosis, basal cell carcinoma, vascular lesion
+- The benign class utilizing melanoma, squamous cell carcinoma
 ### Installation
 - The project runs on Python 3.8 and developed with Jupyter notebook(.ipynb) extension.
 - In order to run this project install this requirements
