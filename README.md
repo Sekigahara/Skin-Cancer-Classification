@@ -40,8 +40,8 @@ pip install -r requirements.txt
 ### Scenario
 - We trained the model with relu and Adam until we find the highest possible validation accuracy.
 - This combination model then further will be utilized with different combination of activation function and optimizer
-- We utilizes these activation function : relu, swish and mish
-- We utilizes these optimizer : SGD, RMSprop and adam
+- We utilizes these activation function : ```relu, swish and mish```
+- We utilizes these optimizer : ```SGD, RMSprop and adam```
 ### Result
 #### Result in Graph
 - Note : The graph image title and y-axis is mistakenly rendered, the right title and y-axis is based on the table label.
