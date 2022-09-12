@@ -36,7 +36,7 @@ pip install -r requirements.txt
 - The request can be done by sending the image file directly
 - The response is tested with Postman and can be seen below <br> ![image](https://user-images.githubusercontent.com/54882818/187690697-b9c695dc-7767-4944-9ced-45006467e432.png)
 
-## Analysis
+## Result and Analysis
 ### Scenario
 - We trained the model with relu and Adam until we find the highest possible validation accuracy.
 - This combination model then further will be utilized with different combination of activation function and optimizer
@@ -205,3 +205,7 @@ pip install -r requirements.txt
     <td> 71.75% </td>
   </tr>
 </table>
+
+### Analysis
+
+## Conclusion
