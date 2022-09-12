@@ -1,0 +1,14 @@
+20 epochs
+learning rate = 10 epocs 0.001 and 11-20 epochs 0.0001
+
+relu sgd = acc 60.17% val acc 51.95%
+relu rmsprop = acc 95.13% val acc 70.68%
+relu adam = acc 96.69% val acc 71.22%
+
+swish sgd = acc 36.34% val acc 20.71%
+swish rmsprop = acc 99.50% val acc 70.03%s
+swish adam = acc 98.42% val acc 71.10%
+
+mish sgd = acc 50.13% val acc 49.12%
+mish rmsprop = acc 98.69s% val acc 71.01%
+mish adam = acc 98.24% val acc 71.75%
