@@ -44,33 +44,102 @@ pip install -r requirements.txt
 - We utilizes these optimizer : SGD, RMSprop and adam
 ### Result
 #### Result in Graph
-- relu
+- Note : The graph image title and y-axis is mistakenly rendered, the right title and y-axis is based on the table label.
+- Below is the result of training click to dropdown.
+<details markdown="1">
+<summary>ReLU training graph result</summary>
+</br>
+<table style="width:100%">
+  <tr> 
+      <th> Loss SGD </th>
+      <th> Accuracy SGD</th>
+  </tr>
+  <tr> 
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189628149-5a637d19-36c3-4225-9ce8-7fd3b49c2b2e.jpg"/> </td>
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189628162-826bffb9-37cb-4aff-8382-78bc79541ae3.jpg"/> </td>
+  </tr>
+  <tr> 
+      <th> Loss RMSprop</th>
+      <th> Accuracy RMSprop</th>
+  </tr>
+  <tr> 
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189627995-8d7902ba-de00-42e8-ab89-ef719e5fad10.jpg"/> </td>
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189628031-563df083-c24d-4e2a-8dbe-320af0ccff67.jpg"/> </td>
+  </tr>
+  <tr> 
+      <th> Loss Adam</th>
+      <th> Accuracy Adam</th>
+  </tr>
+  <tr> 
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189619093-74daec8a-294a-4d58-b6c9-e38e437fdd28.jpg"/> </td>
+      <td> <img src="https://user-images.githubusercontent.com/54882818/189619122-55ffac46-c6f3-47b2-ada7-681ccd73500f.jpg"/> </td>
+  </tr>
+</table>
+</details>
+
+<details markdown="1">
+<summary>SWISH training graph result</summary>
+</br>
 <table style="width:100%">
   <tr> 
     <th> Loss SGD </th>
     <th> Accuracy SGD</th>
   </tr>
   <tr> 
-    <td> <img src="https://user-images.githubusercontent.com/54882818/189619093-74daec8a-294a-4d58-b6c9-e38e437fdd28.jpg"/> </td>
-    <td> <img src="https://user-images.githubusercontent.com/54882818/189619122-55ffac46-c6f3-47b2-ada7-681ccd73500f.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629219-eb6d12ec-5d49-4371-988a-1f17c13121e6.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629234-7a93e31d-2693-477c-b9d1-53da5ca902d5.jpg"/> </td>
   </tr>
   <tr> 
     <th> Loss RMSprop</th>
     <th> Accuracy RMSprop</th>
   </tr>
   <tr> 
-    <td> <img src=""/> </td>
-    <td> <img src=""/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629508-2f249a09-9c3c-4dc5-b9ad-a83acc3cfb30.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629522-3c7ee465-d7a5-4da2-9702-314bc8dab8a7.jpg"/> </td>
   </tr>
   <tr> 
     <th> Loss Adam</th>
     <th> Accuracy Adam</th>
   </tr>
   <tr> 
-    <td> <img src=""/> </td>
-    <td> <img src=""/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629658-c801ea45-2efa-4df5-87e9-6d6754d2303a.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189629747-a24a3c66-017f-40e1-a34e-b67375b19c87.jpg"/> </td>
   </tr>
 </table>
+</details>
+
+<details markdown="1">
+<summary>MISH training graph result</summary>
+</br>
+<table style="width:100%">
+  <tr> 
+    <th> Loss SGD </th>
+    <th> Accuracy SGD</th>
+  </tr>
+  <tr> 
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632597-42e6fbd5-85e3-4d58-b4c5-932035dadc22.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632608-94c68edd-53bf-4217-80e7-ec25ce2df4e4.jpg"/> </td>
+
+  </tr>
+  <tr> 
+    <th> Loss RMSprop</th>
+    <th> Accuracy RMSprop</th>
+  </tr>
+  <tr> 
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632710-947b33f7-1c2a-473a-9e97-983de45815b3.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632747-a4d32221-841d-451c-afc2-cce7069ef863.jpg"/> </td>
+  </tr>
+
+  <tr> 
+    <th> Loss Adam</th>
+    <th> Accuracy Adam</th>
+  </tr>
+  <tr> 
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632344-0a34a778-fefa-4c96-bddc-94a1114c6b8c.jpg"/> </td>
+    <td> <img src="https://user-images.githubusercontent.com/54882818/189632357-1e58f28d-a9c1-496d-94fc-defeee0cdfc3.jpg"/> </td>
+  </tr>
+</table>
+</details>
 
 #### Result Table
 - Result in Accuracy
