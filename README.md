@@ -15,13 +15,13 @@ This repositories is associated to Bangkit academy group project. The main conce
 - The semi class is a skin cancer in the verge of either benigh or could turn into malign(potentially malign).
 #### 7 Classes scenario
 - With merge script, we could merge HAM10000 and utilize a few classes from ISIC into one dataset.
-- Based on HAM10000, we merge these classes ```actinic keratosis(akiec), basal cell carcinoma(bcc), Pigmented benign keratosis(bkl), dermatofibroma(df), melanoma(mel), melanocytic nevus(nv)m vascular lesion(vasc)```
+- Based on HAM10000, we merge these classes ```actinic keratosis(akiec), basal cell carcinoma(bcc), Pigmented benign keratosis(bkl), dermatofibroma(df), melanoma(mel), melanocytic nevus(nv) vascular lesion(vasc)```
 - Order to run this scenario respectively : ```Run merge_main_dataset -> Run preprocess_main_dataset -> training_main_dataset```
 #### 3 Classes scenario
 - In this cases we merge this manually with details below.
-- The malign class utilizing ```basal cell carcinomas, squamous cell carcinomas and melanoma```
-- The semi class utilizing ```actinic keratosis, basal cell carcinoma, vascular lesion```
-- The benign class utilizing ```melanoma, squamous cell carcinoma```
+- The benign class utilizing ```dermatofibrinoma, melanocytic Nevus , pigmented keratosis, seborrheic keratosis```
+- The semi class utilizing ```actinic keratosis, bacal cell carcinoma, vascular lesion```
+- The malign class utilizing ```melanoma, squamous cell carcinoma```
 - Order to run this scenario respectively : ```Create and copy every file based on the above format -> Run preprocess_three_dataset -> training_three_dataset```
 ### Installation
 - The project runs on Python 3.8 and developed with Jupyter notebook(.ipynb) extension.
