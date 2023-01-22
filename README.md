@@ -1,4 +1,4 @@
-# Skin Cancer Classification CNN based
+# Skin Cancer Classification CNN using self-regularized activation function
 This repository is based on my competition group repository [here](https://github.com/Sekigahara/skin-cancer-classification-skinconnect).
 
 ## Abstract
